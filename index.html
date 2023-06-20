@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textile Todo</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="container">
+       <div id="navbar">
+            <p>Textile To Do List</p>
+       </div> 
+       <div id="field-content">
+            <div id="form-content">
+                <form id="product-form">
+                    <label>Product Name</label><br>
+                    <input type="text" id="new-product-input" /><br>
+                    <label>Rate</label><br>
+                    <input type="number" id="new-productrate-input" /><br>
+                    <label>Description</label><br>
+                    <input type="text" id="new-producdesc-input" /><br>
+                    <label class="err" style="color: red;"></label>
+                    <input type="submit" id="form-submit" name="Submit" />
+                </form>
+            </div>
+            <div id="list-content">
+                <h4 style="padding-left: 10px;">List of products</h4><input type="search" name="" id=""><button>Search</button>
+                <!-- <div class="all-list">
+                    <div>
+                        <label>Product Name</label><br>
+                        <input type="text" name="" class="show-product" readonly><br>
+                        <label>Product Rate</label><br>
+                        <input type="number" name="" class="show-rate" readonly><br>
+                        <label>Product Description</label>
+                        <input type="text" name="" class="show-desc" readonly>
+                    </div>
+                    <div class="btn-content">
+                        <div><button class="edit-btn btn" id="edit">Edit</button></div>
+                        <div><button class="del-btn btn" id="delete">Delete</button></div>
+                    </div>
+                </div> -->
+                
+                
+            </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
